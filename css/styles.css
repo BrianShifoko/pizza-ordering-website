@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-header {
+nav {
     margin-bottom: 20px;
     background-color: #343a40; 
     padding: 10px 0;
@@ -23,7 +23,6 @@ footer {
     font-size: 2rem; 
     color: #ffffff;
     animation: bounce 2s infinite; 
-    margin-left: 30px;
 }
 
 @keyframes bounce {
@@ -102,18 +101,8 @@ footer {
 /* Responsive Styles */
 .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.1);
-    margin-right: 20px;
 }
 
 .navbar-toggler .navbar-toggler-icon {
     color: #ffffff;
-}
-
-/* Container Styles */
-main.container {
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
 }
