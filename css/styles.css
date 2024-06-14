@@ -139,17 +139,29 @@ main.container {
     border-radius: 5px;
     font-size: 1.2rem;
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px)  {
     .carousel-caption {
-      text-align: center; 
-      background-color: rgba(0, 0, 0, 0.5); 
-      padding: 10px; 
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 5px; 
     }
   
-    .carousel-caption h5,
-    .carousel-caption p,
+    .carousel-caption h5 {
+      font-size: 1.5rem; 
+      margin-bottom: 5px; 
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem; 
+      margin-bottom: 5px; 
+    }
+  
     .carousel-caption .carousel-discount {
-      display: block; 
-      text-align: center; 
+      font-size: 0.8rem; 
+      padding: 2px 5px; 
+      background-color: #ffc107; 
+      color: #333; 
+      border-radius: 3px; 
     }
   }
+  
