@@ -139,3 +139,17 @@ main.container {
     border-radius: 5px;
     font-size: 1.2rem;
 }
+@media (max-width: 768px) {
+    .carousel-caption {
+      text-align: center; 
+      background-color: rgba(0, 0, 0, 0.5); 
+      padding: 10px; 
+    }
+  
+    .carousel-caption h5,
+    .carousel-caption p,
+    .carousel-caption .carousel-discount {
+      display: block; 
+      text-align: center; 
+    }
+  }
