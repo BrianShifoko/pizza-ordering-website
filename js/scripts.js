@@ -17,4 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
         span.textContent = letter;
         brandName.appendChild(span);
     });
+
+    // Placeholder for future interactivity
+    // Example: Function to dynamically update discounts
+    function updateDiscounts() {
+        const discounts = document.querySelectorAll('.carousel-discount');
+        discounts.forEach((discount, index) => {
+            // Example: Change discount dynamically
+            discount.textContent = `${10 + index * 5}% Off`;
+        });
+    }
+
+    // Call the placeholder function (for demonstration purposes)
+    updateDiscounts();
 });
